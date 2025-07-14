@@ -1,0 +1,149 @@
+# 📊 Power BI Dashboard – General Promises & Collections Analysis
+
+👋 Hello! / ¡Hola!
+
+---
+
+## 🇺🇸 English Version
+
+### 📍 Project Overview
+
+This project is a **Power BI interactive dashboard** built to analyze, compare, and visualize the behavior of different types of **payment promises** in a contact center environment for a debt collection company.
+
+The dashboard allows stakeholders to **track the performance of multiple financial products**, explore trends by type of promise, and understand customer behavior regarding extension requests, payment plans, and fulfillment rates.
+
+It includes filters by **date**, **product**, **payment status (delinquent or current)**, and **origin of the promise** (call center or web).
+
+---
+
+### 📁 Data Sources
+
+- `General_promises.xlsx`: Main dataset containing promise-level information
+- `Loans.xlsx`: Loan details including status and outstanding balances
+- `Payment_Plan.xlsx`: Information on payment plans
+- `Promises_CC.xlsx`: Promises originated from contact center interactions
+
+Additionally, the project uses **two calculated tables in DAX** within Power BI:
+
+- `pp_summary`: Summary table for promise type breakdown
+- `principal`: Table to compare outstanding vs paid amounts
+
+---
+
+### 📄 Pages Overview
+
+1. **Promises**  
+   Comparative dashboard showing 5 product lines across 3 types of promises (PTE, PTP, PP).  
+   Visualizes total volume, extensions, and payment plans with filters for delinquency status, channel (web or call center), and time.
+
+2. **Payments**  
+   Mirrors the “Promises” page but focuses on the actual **payments fulfilled** for each type of promise.
+
+3. **Extensions**  
+   Focused breakdown of **extension-type promises (PTE)** by year and month.
+
+4. **Principal vs Extensions**  
+   Comparison between overdue customers and the amount paid through **extensions**.
+
+5. **Kept Rate**  
+   Deep dive into the **promise kept rate** (fulfilled vs total promises).
+
+6. **Payment Plans (PP)**  
+   In-depth view of performance and volume related to **payment plans (PP)**.
+
+---
+
+### ⚙️ Tools & Technologies
+
+- Power BI Desktop (.pbix)
+- Microsoft Excel (.xlsx)
+- DAX for calculated tables and measures
+- Power Query for data shaping and transformation
+
+---
+
+### 📷 Dashboard Preview
+
+*Insert preview image here*
+
+---
+
+### 📫 Contact
+
+- 📧 juan.garciacasti97@gmail.com  
+- 📱 (+57) 314 268 1932  
+- 💼 [LinkedIn](https://www.linkedin.com/in/juan-carlos-garcia-castillo-93304a212/)
+
+---
+
+## 🇪🇸 Versión en Español
+
+### 📍 Descripción del Proyecto
+
+Este proyecto es un **dashboard interactivo en Power BI** diseñado para analizar, comparar y visualizar el comportamiento de distintos tipos de **promesas de pago** en un entorno de contact center de una **casa de cobranzas**.
+
+El dashboard permite a los líderes visualizar el desempeño de diferentes productos financieros, entender patrones de comportamiento de los clientes y realizar seguimiento al cumplimiento de extensiones, promesas directas y planes de pago.
+
+Incluye filtros por **fecha**, **producto**, **estado del cliente (en mora o al día)** y **origen de la promesa** (call center o página web).
+
+---
+
+### 📁 Fuentes de Datos
+
+- `General_promises.xlsx`: Detalle principal de promesas por cliente  
+- `Loans.xlsx`: Información de préstamos y estado actual  
+- `Payment_Plan.xlsx`: Detalles de los planes de pago activos  
+- `Promises_CC.xlsx`: Registro de promesas tomadas vía call center
+
+Además, se crean internamente **dos tablas en Power BI usando DAX**:
+
+- `pp_summary`: Resumen por tipo de promesa  
+- `principal`: Comparativo entre capital adeudado y pagado en extensiones  
+
+---
+
+### 📄 Vista General de las Hojas
+
+1. **Promises**  
+   Página principal que compara 5 productos y 3 tipos de promesas (PTE, PTP y PP).  
+   Muestra volúmenes totales, extensiones y planes de pago con filtros de estado de mora, canal de origen y fechas.
+
+2. **Payments**  
+   Mismo diseño que la hoja anterior, pero centrado en los **pagos realizados** por cada tipo de promesa.
+
+3. **Extensions**  
+   Análisis específico por año y mes del número de créditos con **promesas tipo PTE**.
+
+4. **Principal vs Extensions**  
+   Compara clientes en mora y cuánto han pagado bajo modalidad de **extensiones**.
+
+5. **Kept Rate**  
+   Análisis detallado del indicador **Kept Rate** (promesas cumplidas vs totales).
+
+6. **PP (Planes de Pago)**  
+   Enfoque exclusivo a la evolución y cumplimiento de los **planes de pago**.
+
+---
+
+### ⚙️ Herramientas y Tecnologías
+
+- Power BI Desktop (.pbix)  
+- Microsoft Excel (.xlsx)  
+- DAX para tablas y KPIs  
+- Power Query para transformación de datos
+
+---
+
+### 📷 Vista previa del Dashboard
+
+*Inserta aquí una imagen de muestra del dashboard*
+
+---
+
+### 📫 Contacto
+
+- 📧 juan.garciacasti97@gmail.com  
+- 📱 (+57) 314 268 1932  
+- 💼 [LinkedIn](https://www.linkedin.com/in/juan-carlos-garcia-castillo-93304a212/)
+
+---
