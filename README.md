@@ -30,10 +30,7 @@
 | Power Automate / Query | Básico-Intermedio |
 | Estadística | Básico |
 
-*(Subiré cada proyecto con documentación y dataset ficticio)*
-
 ## 📫 Contacto
-
 - 📧 juan.garciacasti97@gmail.com
 - 📱  +57 3142681932
 - 💼 [LinkedIn](https://www.linkedin.com/in/juan-carlos-garcia-castillo-93304a212/)  
