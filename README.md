@@ -52,13 +52,13 @@ Currently leading workforce management and business intelligence initiatives to 
 
 ---
 
-### 📂 Projects (Coming Soon)
+### 📂 Projects (More coming soon)
 
 | Project Name            | Description                                                  | Tools Used           |
 |-------------------------|--------------------------------------------------------------|----------------------|
 | `Dashboard_CC     `     | Dynamic dashboard to monitor operational KPIs                | Power BI, Excel      |
-| `API_Data_Migrator `    | Get info from Multiple APIS migrate SQL + Download Excel     | Python, SQL       |
-| `report-automation`     | Automated Excel reporting with Python and scheduling scripts | Python, Excel, SQL   |
+| `API_Data_Migrator `    | Get info from Multiple APIS migrate SQL + Download Excel     | Python, SQL          |
+| `Forecasting model`     | Machine learning pipline forecasting using SARIMAX model     | Python, Excel, SQL   |
 
 ---
 
@@ -120,13 +120,14 @@ Actualmente lidero iniciativas de inteligencia operativa y gestión de fuerza la
 
 ---
 
-### 📂 Proyectos (Muy pronto)
+### 📂 Proyectos (Pronto mas proyectos)
 
-| Nombre del Proyecto     | Descripción                                                  | Herramientas         |
-|-------------------------|--------------------------------------------------------------|----------------------|
-| `kpi-dashboard-bpo`     | Dashboard para monitoreo de KPIs operativos                  | Power BI, Excel      |
-| `forecasting-volume`    | Predicción de tráfico de llamadas con datos simulados        | Python, Pandas       |
-| `report-automation`     | Automatización de reportes semanales con Python              | Python, Excel, SQL   |
+| Nombre del Proyecto     | Descripción                                                    | Herramientas Utilizadas     |
+|-------------------------|----------------------------------------------------------------|-----------------------------|
+| `Dashboard_CC`          | Dashboard dinámico para monitorear KPIs operativos             | Power BI, Excel             |
+| `API_Data_Migrator`     | Extracción de múltiples APIs, migración a SQL y exportación a Excel | Python, SQL             |
+| `Forecasting_Model`     | Pipeline de predicción con aprendizaje automático usando SARIMAX | Python, Excel, SQL         |
+
 
 ---
 
