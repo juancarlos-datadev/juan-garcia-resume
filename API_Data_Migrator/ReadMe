@@ -1,0 +1,33 @@
+# 📞 CDR Data Pipeline – API to MySQL + Excel Export
+
+👋 Hello! / ¡Hola!
+
+---
+
+## 🇺🇸 English Version
+
+### 📍 Project Overview
+
+This project is an **automated data pipeline** built in Python to extract, transform, and load (ETL) CDR (Call Detail Records) data from multiple APIs for a contact center operation.
+
+The script:
+
+1. Connects to secured APIs (basic auth)
+2. Iterates through daily endpoints to retrieve JSON data
+3. Cleans and merges CDR data with project information
+4. Adjusts timestamps to Colombian timezone
+5. Saves the final output to an Excel file
+6. Migrates the transformed data into a **MySQL database** using SQLAlchemy
+
+---
+
+### ⚙️ Technologies Used
+
+- `Python 3.10+`
+- `pandas`, `requests`
+- `SQLAlchemy`
+- `pytz`
+- `openpyxl` (for Excel export)
+- `MySQL Workbench` 
+
+---
