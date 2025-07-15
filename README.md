@@ -56,8 +56,8 @@ Currently leading workforce management and business intelligence initiatives to 
 
 | Project Name            | Description                                                  | Tools Used           |
 |-------------------------|--------------------------------------------------------------|----------------------|
-| `kpi-dashboard-bpo`     | Dynamic dashboard to monitor operational KPIs                | Power BI, Excel      |
-| `forecasting-volume`    | Call volume prediction using real-world-like datasets        | Python, Pandas       |
+| `Dashboard_CC     `     | Dynamic dashboard to monitor operational KPIs                | Power BI, Excel      |
+| `API_Data_Migrator `    | Get info from Multiple APIS migrate SQL + Download Excel     | Python, SQL       |
 | `report-automation`     | Automated Excel reporting with Python and scheduling scripts | Python, Excel, SQL   |
 
 ---
