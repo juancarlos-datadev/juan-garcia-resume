@@ -12,22 +12,50 @@ This project is an **automated data pipeline** built in Python to extract, trans
 
 The script:
 
-1. Connects to secured APIs (basic auth)
-2. Iterates through daily endpoints to retrieve JSON data
-3. Cleans and merges CDR data with project information
-4. Adjusts timestamps to Colombian timezone
-5. Saves the final output to an Excel file
+1. Connects to secured APIs (basic auth)  
+2. Iterates through daily endpoints to retrieve JSON data  
+3. Cleans and merges CDR data with project information  
+4. Adjusts timestamps to Colombian timezone  
+5. Saves the final output to an Excel file  
 6. Migrates the transformed data into a **MySQL database** using SQLAlchemy
 
 ---
 
 ### ⚙️ Technologies Used
 
-- `Python 3.10+`
-- `pandas`, `requests`
-- `SQLAlchemy`
-- `pytz`
-- `openpyxl` (for Excel export)
-- `MySQL Workbench` 
+- `Python 3.10+`  
+- `pandas`, `requests`  
+- `SQLAlchemy`  
+- `pytz`  
+- `openpyxl` (for Excel export)  
+- `MySQL Workbench` / MariaDB
 
 ---
+## 🇪🇸 Versión en Español
+
+### 📍 Descripción del Proyecto
+
+Este proyecto es un **pipeline de datos automatizado** desarrollado en Python para extraer, transformar y cargar (ETL) información de **registros detallados de llamadas (CDR)** desde múltiples APIs utilizadas en una operación de contact center.
+
+El script realiza los siguientes pasos:
+
+1. Se conecta a APIs protegidas (autenticación básica)  
+2. Recorre endpoints diarios para obtener datos en formato JSON  
+3. Limpia y cruza los datos CDR con información de proyectos  
+4. Ajusta las marcas de tiempo al horario colombiano  
+5. Guarda los resultados finales en un archivo de Excel  
+6. Migra la información transformada a una **base de datos MySQL** usando SQLAlchemy
+
+---
+
+### ⚙️ Tecnologías Utilizadas
+
+- `Python 3.10+`  
+- `pandas`, `requests`  
+- `SQLAlchemy`  
+- `pytz`  
+- `openpyxl` (para exportar a Excel)  
+- `MySQL Workbench` o MariaDB
+---
+
+
