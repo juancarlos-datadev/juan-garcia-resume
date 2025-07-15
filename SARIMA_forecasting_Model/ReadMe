@@ -1,0 +1,73 @@
+# 📈 SARIMA Forecasting Model – Daily Connections Predictor
+
+👋 Hello! / ¡Hola!
+
+---
+
+## 🇺🇸 English Version
+
+### 📍 Project Overview
+
+This project implements a **time series forecasting model** using **SARIMA with exogenous variables** (SARIMAX) to predict daily customer connection volumes in a contact center operation.
+
+### ✅ Main Features
+
+- Input data is daily connection logs
+- Outlier treatment using quantile clipping
+- Day-of-week dummy variables for exogenous signal
+- Time series decomposition (trend, seasonality)
+- ADF test, ACF and PACF plots for stationarity checks
+- Holt-Winters smoothing for comparison
+- SARIMA model tuning and forecasting
+- Projections plotted vs. last 3 months of real data
+
+---
+
+### ⚙️ Technologies Used
+
+- Python 3.10+
+- pandas, matplotlib, statsmodels, pmdarima
+- Holt-Winters Smoothing (Holt)
+- SARIMAX from statsmodels
+- Visual outputs with matplotlib
+
+---
+# 📈 Modelo de Pronóstico SARIMA – Predicción de Conexiones Diarias
+
+👋 ¡Hola!
+
+---
+
+## 📍 Descripción del Proyecto
+
+Este proyecto implementa un **modelo de predicción de series temporales** usando **SARIMA con variables exógenas (SARIMAX)** para proyectar la cantidad de conexiones diarias en una operación de contact center.
+
+Está diseñado para operaciones que requieren anticipar la demanda diaria con base en el comportamiento histórico y factores externos como el día de la semana.
+
+---
+
+## ✅ Funcionalidades Principales
+
+- Lectura de datos desde Excel con información diaria de conexiones  
+- Limpieza de datos y tratamiento de outliers (recorte por percentiles)  
+- Generación de variables dummy para días de la semana  
+- Descomposición de series temporales (tendencia, estacionalidad y residual)  
+- Verificación de estacionariedad con prueba ADF, ACF y PACF  
+- Suavizamiento de Holt-Winters como comparación  
+- Ajuste del modelo **SARIMA/SARIMAX**  
+- Proyección de los próximos períodos y comparación con últimos 3 meses reales  
+- Visualizaciones con `matplotlib`
+
+---
+
+## ⚙️ Tecnologías Utilizadas
+
+- `Python 3.10+`  
+- `pandas`  
+- `matplotlib`  
+- `statsmodels`  
+- `pmdarima`  
+- `openpyxl`
+
+---
+
